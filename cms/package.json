@@ -1,0 +1,33 @@
+{
+  "name": "cms",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "start:win": "cross-env NODE_ENV=production npm start",
+    "build": "strapi build",
+    "build:win": "cross-env NODE_ENV=production npm run build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.1.5",
+    "@strapi/plugin-users-permissions": "4.1.5",
+    "@strapi/strapi": "4.1.5",
+    "cross-env": "^7.0.3",
+    "mysql": "2.18.1"
+  },
+  "author": {
+    "name": "Luka Patarcic"
+  },
+  "strapi": {
+    "uuid": "3dbf989a-4e29-4318-b2c6-3bc5883bea15"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
